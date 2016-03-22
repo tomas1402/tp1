@@ -6,73 +6,61 @@
 </head>
 <body>
 	<header>
+		<img src="images/header-logo.png" alt="logo-webpage">
 		<nav>
 			<ul>
-				<li>
-					<a href="index.html">
-						<img src="images/header-logo.png" alt="logo-webpage">
-					</a>
-				</li>
-				<li>
-					<a href="home.html">Home</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		<section>
-			<img src="images/indexbanner-bg3.jpg" alt="imagen grande encabezado">
+	</header>
+	<section class="contenedor-inicial">
+		<article class="wrapper">
 			<h1>Regular Updates</h1>
-			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			<form>
 				<input type="text" placeholder="Enter your domain name and hit enter">
 				<input type="submit" value="Search">
 			</form>
-		</section>
-	</header>
 
-	<section>
-		<article>
-			<img src="images/wid1.png" alt="speed servers">
-			<br>
-			<p><strong>SPEED SERVERS</strong></p>
-			<br>
-			<p>A <strong>paragraph</strong> of text with an</p>
-			<p>A <em>second</em> <a href="#">row</a> of </p>
-		</article>
-		<article>
-			<img src="images/wid2.png" alt="hostro services">
-			<br>
-			<p><strong>HOSTRO SERVICES</strong></p>
-			<br>
-			<p>A <strong>paragraph</strong> of text with an</p>
-			<p>A <em>second</em> <a href="#">row</a> of </p>
-		</article>
-		<article>
-			<img src="images/wid3.png" alt="live support">
-			<br>
-			<p><strong>LIVE SUPPORT</strong></p>
-			<br>
-			<p>A <strong>paragraph</strong> of text with an</p>
-			<p>A <em>second</em> <a href="#">row</a> of </p>
-		</article>
-		<article>
-			<img src="images/wid4.png" alt="get domain name">
-			<br>
-			<p><strong>GET DOMAIN NAME</strong></p>
-			<br>
-			<p>A <strong>paragraph</strong> of text with an</p>
-			<p>A <em>second</em> <a href="#">row</a> of </p>
-		</article>
-	</section>
-	<section>
-		<article>
-			<h2>Hostro Services</h2>
-			<h3>Some text Some text Some text</h3>
-		</article>
-	</section>
-	<section>
+			<section class="servicios-destacados">
+				<article>
+					<img src="images/wid1.png" alt="speed servers">
+					<br>
+					<p><strong>SPEED SERVERS</strong></p>
+					<br>
+					<p>A <strong>paragraph</strong> of text with an</p>
+					<p>A <em>second</em> <a href="#">row</a> of </p>
+				</article>
+				<article>
+					<img src="images/wid2.png" alt="hostro services">
+					<br>
+					<p><strong>HOSTRO SERVICES</strong></p>
+					<br>
+					<p>A <strong>paragraph</strong> of text with an</p>
+					<p>A <em>second</em> <a href="#">row</a> of </p>
+				</article>
+				<article>
+					<img src="images/wid3.png" alt="live support">
+					<br>
+					<p><strong>LIVE SUPPORT</strong></p>
+					<br>
+					<p>A <strong>paragraph</strong> of text with an</p>
+					<p>A <em>second</em> <a href="#">row</a> of </p>
+				</article>
+				<article>
+					<img src="images/wid4.png" alt="get domain name">
+					<br>
+					<p><strong>GET DOMAIN NAME</strong></p>
+					<br>
+					<p>A <strong>paragraph</strong> of text with an</p>
+					<p>A <em>second</em> <a href="#">row</a> of </p>
+				</article>
+			</section>
+
+			<h3>Hostro Services</h3>
+			<p>Some text Some text Some text</p>
+	<section class="caracteristicas">
 		<article>
 			<strong>RETINA READY</strong>
 			<img src="images/ser1.png" alt="icono paisaje">
@@ -91,7 +79,11 @@
 			<br>
 			<p>Some text</p>
 		</article>
+	</section>
+	<figure class="imagen-mitad">
 		<img src="images/iphone2.png" alt="imagen telefono">
+	</figure>
+	<section class="caracteristicas">
 		<article>
 			<img src="images/ser4.png" alt="icono objetivo">
 			<strong>UNLIMITED COLORS</strong>
@@ -111,14 +103,9 @@
 			<p>Some text</p>
 		</article>
 	</section>
-	<section>
-		<article>
-			<img src="images/pricing-bg.jpg">
 			<h2>Pricing Tables</h2>
-			<h3>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h3>
-		</article>
-	</section>
-	<section>
+			<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+	<section class="precios">
 		<article>
 			<h2>SMALL PACKAGE</h2>
 			<p><sup>$</sup>15<sup>.9</sup></p>
@@ -169,16 +156,18 @@
 		</article>
 	</section>
 	<footer>
-		<section>
+		<section class="footer-parte1">
 			<h2>Hosting use <span><strong>500.000</strong></span> happy customers. Want to see services?</h2>
 		</section>
-		<section>
+		<section class="footer-parte2">
 			<article>
 				2015 Coderland. All right reserved.
 			</article>
 			<article>
-				<a href="index.html">Home</a>
-				<a href="contact.html">Contact</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				<ul>
 			</article>
 		</section>
 	</footer>
